@@ -1,0 +1,88 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "cuál es mi d. n. i.",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "cancelar"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "alexa ayuda",
+                        "ayuda"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "adios",
+                        "stop",
+                        "sal",
+                        "gracias"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "dniIntent",
+                    "slots": [
+                        {
+                            "name": "numA",
+                            "type": "AMAZON.NUMBER"
+                        },
+                        {
+                            "name": "numB",
+                            "type": "AMAZON.NUMBER"
+                        },
+                        {
+                            "name": "numC",
+                            "type": "AMAZON.NUMBER"
+                        },
+                        {
+                            "name": "numD",
+                            "type": "AMAZON.NUMBER"
+                        },
+                        {
+                            "name": "numE",
+                            "type": "AMAZON.NUMBER"
+                        },
+                        {
+                            "name": "numF",
+                            "type": "AMAZON.NUMBER"
+                        },
+                        {
+                            "name": "numG",
+                            "type": "AMAZON.NUMBER"
+                        },
+                        {
+                            "name": "numH",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "{numA} {numB} {numC} {numD} {numE} {numF} {numG} {numH}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NextIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": []
+                }
+            ],
+            "types": []
+        }
+    }
+}
